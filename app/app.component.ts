@@ -1,9 +1,6 @@
 import {
   Component,
-  ViewChild,
-  ElementRef,
   ViewEncapsulation,
-  AfterViewInit,
 } from '@angular/core';
 import { VERSION } from '@angular/material';
 import { NavItem } from './nav-item';
@@ -14,7 +11,7 @@ import { NavItem } from './nav-item';
   styleUrls: ['app.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class AppComponent implements AfterViewInit {
+export class AppComponent {
   version = VERSION;
   navItems: NavItem[] = [
     {
@@ -357,6 +354,4 @@ export class AppComponent implements AfterViewInit {
   ];
 
   constructor() {}
-
-  ngAfterViewInit() {}
 }
