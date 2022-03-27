@@ -1,12 +1,18 @@
-import {Component, ViewChild, ElementRef, ViewEncapsulation, AfterViewInit} from '@angular/core';
-import {VERSION} from '@angular/material';
-import {NavItem} from './nav-item';
+import {
+  Component,
+  ViewChild,
+  ElementRef,
+  ViewEncapsulation,
+  AfterViewInit,
+} from '@angular/core';
+import { VERSION } from '@angular/material';
+import { NavItem } from './nav-item';
 
 @Component({
   selector: 'material-app',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent implements AfterViewInit {
   @ViewChild('appDrawer') appDrawer: ElementRef;
@@ -28,9 +34,9 @@ export class AppComponent implements AfterViewInit {
                 {
                   displayName: 'Create Enterprise UIs',
                   iconName: 'star_rate',
-                  route: 'material-design'
-                }
-              ]
+                  route: 'material-design',
+                },
+              ],
             },
             {
               displayName: 'Stephen Fluin',
@@ -38,11 +44,11 @@ export class AppComponent implements AfterViewInit {
               route: 'stephen-fluin',
               children: [
                 {
-                  displayName: 'What\'s up with the Web?',
+                  displayName: "What's up with the Web?",
                   iconName: 'star_rate',
-                  route: 'what-up-web'
-                }
-              ]
+                  route: 'what-up-web',
+                },
+              ],
             },
             {
               displayName: 'Mike Brocchi',
@@ -52,16 +58,16 @@ export class AppComponent implements AfterViewInit {
                 {
                   displayName: 'My ally, the CLI',
                   iconName: 'star_rate',
-                  route: 'my-ally-cli'
+                  route: 'my-ally-cli',
                 },
                 {
                   displayName: 'Become an Angular Tailor',
                   iconName: 'star_rate',
-                  route: 'become-angular-tailer'
-                }
-              ]
-            }
-          ]
+                  route: 'become-angular-tailer',
+                },
+              ],
+            },
+          ],
         },
         {
           displayName: 'Sessions',
@@ -70,31 +76,31 @@ export class AppComponent implements AfterViewInit {
             {
               displayName: 'Create Enterprise UIs',
               iconName: 'star_rate',
-              route: 'material-design'
+              route: 'material-design',
             },
             {
-              displayName: 'What\'s up with the Web?',
+              displayName: "What's up with the Web?",
               iconName: 'star_rate',
-              route: 'what-up-web'
+              route: 'what-up-web',
             },
             {
               displayName: 'My ally, the CLI',
               iconName: 'star_rate',
-              route: 'my-ally-cli'
+              route: 'my-ally-cli',
             },
             {
               displayName: 'Become an Angular Tailor',
               iconName: 'star_rate',
-              route: 'become-angular-tailer'
-            }
-          ]
+              route: 'become-angular-tailer',
+            },
+          ],
         },
         {
           displayName: 'Feedback',
           iconName: 'feedback',
-          route: 'feedback'
-        }
-      ]
+          route: 'feedback',
+        },
+      ],
     },
     {
       displayName: 'Disney',
@@ -112,9 +118,9 @@ export class AppComponent implements AfterViewInit {
                 {
                   displayName: 'Create Enterprise UIs',
                   iconName: 'star_rate',
-                  route: 'material-design'
-                }
-              ]
+                  route: 'material-design',
+                },
+              ],
             },
             {
               displayName: 'Stephen Fluin',
@@ -122,11 +128,11 @@ export class AppComponent implements AfterViewInit {
               route: 'stephen-fluin',
               children: [
                 {
-                  displayName: 'What\'s up with the Web?',
+                  displayName: "What's up with the Web?",
                   iconName: 'star_rate',
-                  route: 'what-up-web'
-                }
-              ]
+                  route: 'what-up-web',
+                },
+              ],
             },
             {
               displayName: 'Mike Brocchi',
@@ -136,16 +142,16 @@ export class AppComponent implements AfterViewInit {
                 {
                   displayName: 'My ally, the CLI',
                   iconName: 'star_rate',
-                  route: 'my-ally-cli'
+                  route: 'my-ally-cli',
                 },
                 {
                   displayName: 'Become an Angular Tailor',
                   iconName: 'star_rate',
-                  route: 'become-angular-tailer'
-                }
-              ]
-            }
-          ]
+                  route: 'become-angular-tailer',
+                },
+              ],
+            },
+          ],
         },
         {
           displayName: 'Sessions',
@@ -154,31 +160,31 @@ export class AppComponent implements AfterViewInit {
             {
               displayName: 'Create Enterprise UIs',
               iconName: 'star_rate',
-              route: 'material-design'
+              route: 'material-design',
             },
             {
-              displayName: 'What\'s up with the Web?',
+              displayName: "What's up with the Web?",
               iconName: 'star_rate',
-              route: 'what-up-web'
+              route: 'what-up-web',
             },
             {
               displayName: 'My ally, the CLI',
               iconName: 'star_rate',
-              route: 'my-ally-cli'
+              route: 'my-ally-cli',
             },
             {
               displayName: 'Become an Angular Tailor',
               iconName: 'star_rate',
-              route: 'become-angular-tailer'
-            }
-          ]
+              route: 'become-angular-tailer',
+            },
+          ],
         },
         {
           displayName: 'Feedback',
           iconName: 'feedback',
-          route: 'feedback'
-        }
-      ]
+          route: 'feedback',
+        },
+      ],
     },
     {
       displayName: 'Orlando',
@@ -196,9 +202,9 @@ export class AppComponent implements AfterViewInit {
                 {
                   displayName: 'Create Enterprise UIs',
                   iconName: 'star_rate',
-                  route: 'material-design'
-                }
-              ]
+                  route: 'material-design',
+                },
+              ],
             },
             {
               displayName: 'Stephen Fluin',
@@ -206,11 +212,11 @@ export class AppComponent implements AfterViewInit {
               route: 'stephen-fluin',
               children: [
                 {
-                  displayName: 'What\'s up with the Web?',
+                  displayName: "What's up with the Web?",
                   iconName: 'star_rate',
-                  route: 'what-up-web'
-                }
-              ]
+                  route: 'what-up-web',
+                },
+              ],
             },
             {
               displayName: 'Mike Brocchi',
@@ -220,16 +226,16 @@ export class AppComponent implements AfterViewInit {
                 {
                   displayName: 'My ally, the CLI',
                   iconName: 'star_rate',
-                  route: 'my-ally-cli'
+                  route: 'my-ally-cli',
                 },
                 {
                   displayName: 'Become an Angular Tailor',
                   iconName: 'star_rate',
-                  route: 'become-angular-tailer'
-                }
-              ]
-            }
-          ]
+                  route: 'become-angular-tailer',
+                },
+              ],
+            },
+          ],
         },
         {
           displayName: 'Sessions',
@@ -238,31 +244,31 @@ export class AppComponent implements AfterViewInit {
             {
               displayName: 'Create Enterprise UIs',
               iconName: 'star_rate',
-              route: 'material-design'
+              route: 'material-design',
             },
             {
-              displayName: 'What\'s up with the Web?',
+              displayName: "What's up with the Web?",
               iconName: 'star_rate',
-              route: 'what-up-web'
+              route: 'what-up-web',
             },
             {
               displayName: 'My ally, the CLI',
               iconName: 'star_rate',
-              route: 'my-ally-cli'
+              route: 'my-ally-cli',
             },
             {
               displayName: 'Become an Angular Tailor',
               iconName: 'star_rate',
-              route: 'become-angular-tailer'
-            }
-          ]
+              route: 'become-angular-tailer',
+            },
+          ],
         },
         {
           displayName: 'Feedback',
           iconName: 'feedback',
-          route: 'feedback'
-        }
-      ]
+          route: 'feedback',
+        },
+      ],
     },
     {
       displayName: 'Maleficent',
@@ -281,9 +287,9 @@ export class AppComponent implements AfterViewInit {
                 {
                   displayName: 'Create Enterprise UIs',
                   iconName: 'star_rate',
-                  route: 'material-design'
-                }
-              ]
+                  route: 'material-design',
+                },
+              ],
             },
             {
               displayName: 'Stephen Fluin',
@@ -291,11 +297,11 @@ export class AppComponent implements AfterViewInit {
               route: 'stephen-fluin',
               children: [
                 {
-                  displayName: 'What\'s up with the Web?',
+                  displayName: "What's up with the Web?",
                   iconName: 'star_rate',
-                  route: 'what-up-web'
-                }
-              ]
+                  route: 'what-up-web',
+                },
+              ],
             },
             {
               displayName: 'Mike Brocchi',
@@ -305,16 +311,16 @@ export class AppComponent implements AfterViewInit {
                 {
                   displayName: 'My ally, the CLI',
                   iconName: 'star_rate',
-                  route: 'my-ally-cli'
+                  route: 'my-ally-cli',
                 },
                 {
                   displayName: 'Become an Angular Tailor',
                   iconName: 'star_rate',
-                  route: 'become-angular-tailer'
-                }
-              ]
-            }
-          ]
+                  route: 'become-angular-tailer',
+                },
+              ],
+            },
+          ],
         },
         {
           displayName: 'Sessions',
@@ -323,36 +329,35 @@ export class AppComponent implements AfterViewInit {
             {
               displayName: 'Create Enterprise UIs',
               iconName: 'star_rate',
-              route: 'material-design'
+              route: 'material-design',
             },
             {
-              displayName: 'What\'s up with the Web?',
+              displayName: "What's up with the Web?",
               iconName: 'star_rate',
-              route: 'what-up-web'
+              route: 'what-up-web',
             },
             {
               displayName: 'My ally, the CLI',
               iconName: 'star_rate',
-              route: 'my-ally-cli'
+              route: 'my-ally-cli',
             },
             {
               displayName: 'Become an Angular Tailor',
               iconName: 'star_rate',
-              route: 'become-angular-tailer'
-            }
-          ]
+              route: 'become-angular-tailer',
+            },
+          ],
         },
         {
           displayName: 'Feedback',
           iconName: 'feedback',
-          route: 'feedback'
-        }
-      ]
-    }
+          route: 'feedback',
+        },
+      ],
+    },
   ];
 
-  constructor(private navService: NavService) {
-  }
+  constructor() {}
 
   ngAfterViewInit() {
     this.navService.appDrawer = this.appDrawer;
