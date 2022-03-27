@@ -47,7 +47,6 @@ import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MenuListItemComponent } from './menu-list-item/menu-list-item.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NavService } from './nav.service';
 
 /**
  * NgModule that includes all Material modules that are required.
@@ -109,7 +108,6 @@ export class MaterialModule {}
     AppRoutingModule,
   ],
   declarations: [AppComponent, MenuListItemComponent],
-  bootstrap: [AppComponent],
-  providers: [NavService],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
