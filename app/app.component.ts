@@ -2,7 +2,6 @@ import {
   Component,
   ViewEncapsulation,
 } from '@angular/core';
-import { VERSION } from '@angular/material';
 import { NavItem } from './nav-item';
 
 @Component({
@@ -12,7 +11,6 @@ import { NavItem } from './nav-item';
   encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
-  version = VERSION;
   navItems: NavItem[] = [
     {
       displayName: 'DevFestFL',
