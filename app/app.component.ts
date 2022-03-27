@@ -1,7 +1,6 @@
 import {Component, ViewChild, ElementRef, ViewEncapsulation, AfterViewInit} from '@angular/core';
 import {VERSION} from '@angular/material';
 import {NavItem} from './nav-item';
-import {NavService} from './nav.service';
 
 @Component({
   selector: 'material-app',
