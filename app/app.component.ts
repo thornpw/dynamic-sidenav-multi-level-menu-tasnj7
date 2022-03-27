@@ -15,7 +15,6 @@ import { NavItem } from './nav-item';
   encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent implements AfterViewInit {
-  @ViewChild('appDrawer') appDrawer: ElementRef;
   version = VERSION;
   navItems: NavItem[] = [
     {
@@ -359,7 +358,5 @@ export class AppComponent implements AfterViewInit {
 
   constructor() {}
 
-  ngAfterViewInit() {
-    this.navService.appDrawer = this.appDrawer;
-  }
+  ngAfterViewInit() {}
 }
